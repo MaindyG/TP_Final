@@ -1,0 +1,30 @@
+ifs :
+
+
+1 choix:
+
+ 1 - maj 
+ 2 - min  
+ 3 - chi 
+ 4 - spec 
+
+2 choix :
+
+ 5 - maj + min 
+ 6 - maj + chi 
+ 7 - maj + spec
+ 8 - min + chi 
+ 9 - min + spec
+ 10 - chi + spec
+
+3 choix :
+
+ 11 - maj + min + chi 
+ 12 - maj + min + spec
+ 13 - maj + chi + spec
+ 14 - min + chi + spec
+
+4 choix :
+
+ 15 - ABCD 
+

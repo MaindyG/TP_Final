@@ -1,0 +1,190 @@
+/*- Fidel Maindy Goue (c) - TP02 --> */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+span {
+  color: orange;
+}
+
+#navbar {
+  margin: 0;
+  padding-right: 15%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar .logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 12%;
+  width: 65px;
+  height: 65px;
+  margin-right: 75px;
+  float: left;
+}
+
+#navbar li a {
+  padding-left: 25%;
+  display: inline;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 22px 22px;
+  text-decoration: none;
+}
+
+#navbar ul li :hover,
+#navbar ul li .current {
+  background: black;
+  color: #f7c08a;
+}
+
+
+
+.presentation {
+  background-image: url("/img/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.presentation {
+  padding-top: 15%;
+  color: white;
+}
+
+.presentation h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.presentation p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#button1,
+#button1 a {
+  background: grey;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+.history {
+  background: #444;
+  height: 400px;
+  text-align: center;
+}
+
+.history h3 {
+  padding-top: 7%
+}
+
+#button2,
+#button2 a {
+  background: white;
+  padding: 18px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.history .img {
+  background-image: url("/img/img2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.text1 {
+  color: white;
+  width: 50%;
+  float: right
+}
+
+.txt1title {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.txt1p {
+  font-size: 19px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+
+.services {
+  height: 400px;
+  text-align: center;
+}
+
+.l {
+  padding-top: 50px;
+  height: 350px;
+  width: 33%;
+  float: right;
+  background: rgb(227, 227, 227);
+}
+
+.fr,
+.gl,
+.fm {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+img {
+  height: 65px;
+}
+
+
+.m {
+  padding-top: 50px;
+  height: 350px;
+  width: 33%;
+  float: left;
+  background: rgb(227, 227, 227);
+}
+
+
+.f {
+  padding-top: 50px;
+  height: 350px;
+  background: rgb(255, 169, 9);
+}
+
+
+footer {
+
+  text-align: center;
+  background: #444;
+  color: rgb(143, 143, 143);
+  padding: 25px;
+}
+
+
+
+
+  
+  
+  
+  
+  
+  

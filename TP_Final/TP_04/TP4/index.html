@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conception TP4</title>
+    
+    <style>
+        h2{
+            margin: 10px 0 20px;
+            text-align: center;
+            color: red;
+        }
+
+        .chariot{
+            text-align: center;
+        }
+
+        #text4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h2 class="titrePrincipale">Générateur de mots de passe</h2>
+    <br><br>
+
+    <div class="chariot">
+    <div>
+        <label for="">Choix longueur: </label>
+        <input type="number" id="longueur" min="5" max="20">
+    </div>
+
+    <br>
+    <div>
+        <label for="">Inclus les majuscules </label>
+        <input type="checkbox" id="majuscule">
+    </div>
+
+    <br>
+    <div>
+        <label for="">Inclus les minuscules </label>
+        <input type="checkbox" id="minuscule">
+    </div>
+
+    <br>
+    <div>
+        <label for="">Inclus les chiffres </label>
+        <input type="checkbox" id="chiffre">
+    </div>
+
+    <br>
+    <div>
+        <label for="">Inclus les caractères spéciaux </label>
+        <input type="checkbox" id="carSpecial">
+    </div>
+
+    <br>
+    <button type="submit" id="generatePWD">Générer PWDs</button>
+ 
+    
+    </div> 
+
+    <h4 id="text4">Le mot de passe est: 
+        <span id="myPwd" ></span></h4>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
